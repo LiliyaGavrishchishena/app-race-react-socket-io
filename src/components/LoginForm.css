@@ -1,0 +1,27 @@
+.form-container {
+  margin: 0 auto;
+  max-width: 25em;
+  background: white;
+  transition: all 0.5s ease-in-out;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0px 0px 1em #ddd;
+}
+
+h2 {
+  margin-top: 0;
+  color: #008cba;
+  text-align: center;
+}
+
+label span {
+  color: #d9534f;
+}
+
+button {
+  background: #008cba;
+}
+
+button&:hover {
+  background: darken(#008cba, 5%);
+}
